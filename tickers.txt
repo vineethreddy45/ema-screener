@@ -1,0 +1,27 @@
+# One ticker per line. US stocks use plain symbols (AAPL).
+# Edit this file to change the watchlist — no code changes needed.
+AAPL
+MSFT
+NVDA
+AMZN
+GOOGL
+META
+TSLA
+AMD
+NFLX
+AVGO
+JPM
+V
+MA
+CRM
+ORCL
+ADBE
+QCOM
+AMAT
+MU
+INTC
+DIS
+PYPL
+SHOP
+COIN
+PLTR
