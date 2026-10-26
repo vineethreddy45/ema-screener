@@ -45,6 +45,16 @@ python fundamentals.py
 Reports are written to `reports/` as `<universe>-YYYY-MM-DD.html` and `.csv`.
 Price history is fetched with a 2-year window so EMA200 is well converged.
 
+## Streamlit app
+
+`app.py` runs the same screener live in the browser — pick the US or India
+universe (or enter custom tickers), hit **Run scan**, and get the metrics,
+dual-confirmed section and full results table with a CSV download. It reuses
+`screener.py`'s logic and the fundamentals snapshots, and routes Yahoo
+downloads through a browser-impersonation session (Yahoo rate-limits
+Streamlit Cloud's shared IPs). Deploy: point Streamlit Cloud at this repo
+with `app.py` as the main file.
+
 `brief.py` builds an optional LLM morning brief over the daily CSVs.
 
 ## Disclaimer

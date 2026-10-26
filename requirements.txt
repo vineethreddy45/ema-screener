@@ -1,2 +1,5 @@
 pandas
 yfinance
+streamlit
+curl_cffi
+requests
